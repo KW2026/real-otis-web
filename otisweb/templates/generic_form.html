@@ -3,6 +3,7 @@
       method="post"
       enctype="multipart/form-data"
       class="form">
+      <span id="characters"></span><br>
   {% csrf_token %}
   {% if form.non_field_errors %}
     <div class="alert alert-danger" role="alert">
